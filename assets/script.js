@@ -32,7 +32,6 @@ function nextSlide(direction) {
   if (i > slides.length - 1) i = 0;
 
   if (i < 0) i = slides.length - 1;
-s
   imageActuel.src ="./assets/images/slideshow/" + slides[i].image;
   
   dotSelected.forEach((removeDotselected) => {
